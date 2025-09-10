@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shaw Boulevard</title>
+    <link rel="stylesheet" href="./style.css" />
+    <!-- favicon -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="../favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="../favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="../favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="../favicon/site.webmanifest" />
+  </head>
+  <body>
+    <img class="bg-logo" src="../images/image2.png" alt="bg-logo" />
+    <div class="container" id="container">
+      <p class="walkin-banner" id="walkin-banner">WALK-IN ROOM RATES</p>
+      <div class="logo-box">
+        <img class="logo" src="../images/image1.png" alt="logo" />
+      </div>
+      <!-- WALK-IN RATES -->
+      <div class="modal-box">
+        <div class="modal" id="modal">
+          <!-- weekday -->
+          <table class="weekday" id="weekday">
+            <th class="week-el">WEEKDAY RATE</th>
+            <th class="room-type">PREMIUM</th>
+            <th class="room-type">DELUXE</th>
+            <th class="room-type">EXECUTIVE</th>
+            <th class="room-type">REGENCY 1</th>
+            <th class="room-type">REGENCY 2</th>
+            <th class="room-type">REGENCY 3</th>
+            <!-- <tr class="rate-box">
+              <td class="los">2HRS</td>
+              <td class="rates">410</td>
+              <td class="rates">-</td>
+              <td class="rates">-</td>
+              <td class="rates">-</td>
+              <td class="rates">-</td>
+              <td class="rates">-</td>
+            </tr> -->
+            <tr class="los">
+              <td class="los">3HRS</td>
+              <td class="rates">480</td>
+              <td class="rates">540</td>
+              <td class="rates">600</td>
+              <td class="rates">680</td>
+              <td class="rates">680</td>
+              <td class="rates">720</td>
+            </tr>
+            <tr class="los">
+              <td class="los">6HRS</td>
+              <td class="rates">610</td>
+              <td class="rates">670</td>
+              <td class="rates">730</td>
+              <td class="rates">740</td>
+              <td class="rates">850</td>
+              <td class="rates">910</td>
+            </tr>
+            <tr class="rate-box" id="regular-ten">
+              <td class="los">10HRS</td>
+              <td class="rates">830</td>
+              <td class="rates">940</td>
+              <td class="rates">1010</td>
+              <td class="rates">1080</td>
+              <td class="rates">1155</td>
+              <td class="rates">1235</td>
+            </tr>
+            <!-- <tr class="rate-box" id="onp">
+              <td class="los">10HRS ONP</td>
+              <td class="rates">725</td>
+              <td class="rates">760</td>
+              <td class="rates">810</td>
+              <td class="rates">910</td>
+              <td class="rates">-</td>
+              <td class="rates">-</td>
+            </tr> -->
+            <tr class="rate-box">
+              <td class="los">12HRS</td>
+              <td class="rates">1120</td>
+              <td class="rates">1220</td>
+              <td class="rates">1320</td>
+              <td class="rates">1420</td>
+              <td class="rates">1520</td>
+              <td class="rates">1620</td>
+            </tr>
+            <tr class="rate-box">
+              <td class="los">24HRS</td>
+              <td class="rates">1770</td>
+              <td class="rates">1900</td>
+              <td class="rates">2100</td>
+              <td class="rates">2300</td>
+              <td class="rates">2500</td>
+              <td class="rates">2700</td>
+            </tr>
+          </table>
+          <!-- weekend -->
+          <table class="weekend" id="weekend">
+                 <tr class="week-el">
+              <th>WEEKEND RATE</th>
+              <th>PREMIUM</th>
+              <th>DELUXE</th>
+              <th>EXECUTIVE</th>
+              <th>REGENCY 1</th>
+              <th>REGENCY 2</th>
+              <th>REGENCY 3</th>
+            </tr>
+            <!-- <tr>
+              <td class="los">2HRS</td>
+              <td class="rates">460</td>
+              <td class="rates">-</td>
+              <td class="rates">-</td>
+              <td class="rates">-</td>
+              <td class="rates">-</td>
+              <td class="rates">-</td>
+            </tr> -->
+            <tr>
+              <td class="los">3HRS</td>
+              <td class="rates">545</td>
+              <td class="rates">605</td>
+              <td class="rates">665</td>
+              <td class="rates">735</td>
+              <td class="rates">735</td>
+              <td class="rates">805</td>
+            </tr>
+            <tr>
+              <td class="los">6HRS</td>
+              <td class="rates">740</td>
+              <td class="rates">800</td>
+              <td class="rates">860</td>
+              <td class="rates">920</td>
+              <td class="rates">980</td>
+              <td class="rates">1040</td>
+            </tr>
+            <tr>
+              <td class="los">10HRS</td>
+              <td class="rates">940</td>
+              <td class="rates">1040</td>
+              <td class="rates">1140</td>
+              <td class="rates">1270</td>
+              <td class="rates">1370</td>
+              <td class="rates">1470</td>
+            </tr>
+            <tr>
+              <td class="los">12HRS</td>
+              <td class="rates">1170</td>
+              <td class="rates">1360</td>
+              <td class="rates">1480</td>
+              <td class="rates">1580</td>
+              <td class="rates">1680</td>
+              <td class="rates">1780</td>
+            </tr>
+            <tr>
+              <td class="los">24HRS</td>
+              <td class="rates">1870</td>
+              <td class="rates">2070</td>
+              <td class="rates">2230</td>
+              <td class="rates">2390</td>
+              <td class="rates">2550</td>
+              <td class="rates">2710</td>
+            </tr>
+          </table>
+          <!-- holiday rates -->
+          <table class="holiday" id="holiday">
+            <tr class="week-el">
+              <th>WEEKEND RATE</th>
+              <th>PREMIUM</th>
+              <th>DELUXE</th>
+              <th>EXECUTIVE</th>
+              <th>REGENCY 1</th>
+              <th>REGENCY 2</th>
+              <th>ECOREGENCY 3</th>
+            </tr>
+            <tr>
+              <td class="los">2HRS</td>
+              <td class="rates">460</td>
+              <td class="rates">-</td>
+              <td class="rates">-</td>
+              <td class="rates">-</td>
+              <td class="rates">-</td>
+              <td class="rates">-</td>
+            </tr>
+           <tr>
+              <td class="los">3HRS</td>
+              <td class="rates">545</td>
+              <td class="rates">605</td>
+              <td class="rates">665</td>
+              <td class="rates">735</td>
+              <td class="rates">735</td>
+              <td class="rates">805</td>
+            </tr>
+            <tr>
+              <td class="los">6HRS</td>
+              <td class="rates">740</td>
+              <td class="rates">800</td>
+              <td class="rates">860</td>
+              <td class="rates">920</td>
+              <td class="rates">980</td>
+              <td class="rates">1040</td>
+            </tr>
+            <tr>
+              <td class="los">10HRS</td>
+              <td class="rates">940</td>
+              <td class="rates">1040</td>
+              <td class="rates">1140</td>
+              <td class="rates">1270</td>
+              <td class="rates">1370</td>
+              <td class="rates">1470</td>
+            </tr>
+            <tr>
+              <td class="los">12HRS</td>
+              <td class="rates">1170</td>
+              <td class="rates">1360</td>
+              <td class="rates">1480</td>
+              <td class="rates">1580</td>
+              <td class="rates">1680</td>
+              <td class="rates">1780</td>
+            </tr>
+            <tr>
+              <td class="los">24HRS</td>
+              <td class="rates">1870</td>
+              <td class="rates">2070</td>
+              <td class="rates">2230</td>
+              <td class="rates">2390</td>
+              <td class="rates">2550</td>
+              <td class="rates">2710</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <h2 class="date-el" id="date-el">date here</h2>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
+
