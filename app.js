@@ -68,7 +68,7 @@ setInterval(() => {
     // WEEKEND: Friday 6:00am to Sunday 5:59pm
     (currentDay === 5 && currentHour >= 6) || // Friday from 6:00am onwards
     currentDay === 6 || // Saturday all day
-    (currentDay === 0 && currentHour < 18) // Sunday before 6:00pm
+    (currentDay === 1 && currentHour < 00) // Sunday before 6:00pm
   ) {
     // WEEKEND RATE
     weekendRateElement.style.display = "block"
@@ -103,5 +103,6 @@ document.addEventListener("click", function () {
     })
   }
 })
+
 
 
