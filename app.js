@@ -40,7 +40,7 @@ setInterval(() => {
      // Christmas Eve
     
     // "2025-12-30", // Rizal Day
-    "2025-12-31", // New Year's Eve
+    //"2025-12-31", // New Year's Eve
   ]
 
   function isHolidayNow() {
@@ -103,6 +103,7 @@ document.addEventListener("click", function () {
     })
   }
 })
+
 
 
 
