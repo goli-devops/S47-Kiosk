@@ -39,7 +39,7 @@ setInterval(() => {
     "2025-12-08", // Feast of the Immaculate Conception
      // Christmas Eve
     
-    "2025-12-30", // Rizal Day
+    // "2025-12-30", // Rizal Day
     "2025-12-31", // New Year's Eve
   ]
 
@@ -103,6 +103,7 @@ document.addEventListener("click", function () {
     })
   }
 })
+
 
 
 
